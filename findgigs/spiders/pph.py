@@ -30,7 +30,7 @@ class PphSpider(scrapy.Spider):
 
     def start_requests(self):
         yield scrapy.Request(
-            url=f'https://peopleperhour.com/freelance-{self.pph_search}-jobs',
+            url=f'https://peopleperhour.com/freelance-{self.pph_search}-jobs?sort=latest',
             callback=self.parse,
             headers = self.headers
         )
