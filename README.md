@@ -16,4 +16,5 @@ I can't able to find any official api for this site, So I'm going to use
 Scrapy to scrape the gigs from this site. Because, When I checked after 
 disabling javascript this site still works fine but to search for particualar 
 jobs, We should use url like :
+
                 'https://peopleperhour.com/freelance-[topic]-[name]-jobs'
